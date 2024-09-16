@@ -1,0 +1,159 @@
+*{
+  
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    }
+
+    
+    .container{
+      
+    height: 100vh;
+    
+    width: 100%;
+    
+    background: linear-gradient(rgba(29, 23, 23, 0.7), rgba(19, 16, 16, 0.7)), url(https://static.vecteezy.com/system/resources/previews/023/010/442/large_2x/the-cup-of-latte-coffee-with-heart-shaped-latte-art-and-ai-generated-free-photo.jpg);
+
+    background-size: cover;
+    
+    background-position: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+    
+    .nav-bar { 
+
+        display: flex ;
+        
+        align-items: center;
+        
+        justify-content:space-between;
+        
+        padding: 30px 80px;
+        
+        }
+    
+    .nav-bar.title{
+    
+    color: #d62020;
+    
+    font-size: 67px;
+    font-weight: 600;
+    
+    }
+    
+    span {
+        font-size: 100px;
+
+        color: #fd0442;
+        
+    }
+    
+    .nav-bar p{
+    
+    position: absolute;
+    
+     margin-top: 100px;
+    
+    margin-left: 50px;
+    
+    color: #fff;
+    
+    font-size: 20px;
+    
+    font-weight: 500;
+    }
+    .menu li{
+    
+    list-style: none;
+    font-size: 70px;
+    
+    display: inline-block;
+    
+    }
+    
+    .menu li a{
+    
+    text-decoration: none;
+    
+    color: #ebe3e3;
+    
+    font-size: 30px;
+    
+    font-weight: 600;
+    
+    margin-left: 25px;
+    
+    transition: .4s ease;
+    
+    }
+    
+    .menu li a:hover{
+    
+    color:crimson;
+    
+    padding: 5px 10px;
+    
+    border: 2px solid #e6dede;
+}
+
+.home{
+
+ height: 400px;
+
+padding: 70px;
+}
+
+.title-1{
+
+font-size: 80px;
+
+color: #f5f7f4;
+
+font-weight: 600;
+
+}
+
+.home p{
+
+color: rgb(236, 236, 152);
+
+font-size: 20px;
+
+padding-top: 10px;
+
+}
+
+.home button{
+
+height: 35px;
+
+color: #f3ebeb;
+
+background: crimson;
+
+padding: 5px 30px;
+
+margin-top: 27px;
+
+border: none;
+
+border-radius: 5px;
+
+transition: .4s ease;
+
+cursor: pointer;
+
+
+}
+
+.home button:hover{
+    background : none ;
+    border: 2px solid crimson;
+}
